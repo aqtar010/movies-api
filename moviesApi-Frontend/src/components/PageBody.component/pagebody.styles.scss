@@ -1,0 +1,14 @@
+.main-choice-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    label:after{
+        content: ":";
+    }
+    select{
+        width: 200px;
+        height: 40px;
+        border-radius: 20px;
+    }
+}
